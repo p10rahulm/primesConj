@@ -62,7 +62,7 @@ def checkConjecture(upperLimit):
 
 
 if __name__ == "__main__":
-    limit = 100000
+    limit = 10000
     conjectureFalse = checkConjecture(limit)
     if not conjectureFalse:
         print("Conjecture is true for primes between 3 and ", limit)
